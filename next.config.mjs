@@ -1,30 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   env: {
-    BASE_URL: "https://multikart-frontend-rest.vercel.app/",
-    API_PROD_URL: "https://api.your.domain.com/api",
-    storageURL: "https://api.your.domain.com",
+    BASE_URL: "https://aarkaytest.com/",
+    API_PROD_URL: "https://api.aarkaytest.com/api",
+    storageURL: "https://api.aarkaytest.com",
   },
 
   images: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.your.domain.com",
-      },
-      {
-        protocol: "http",
-        hostname: "127.0.0.1",
-      },
-      {
-        protocol: "http",
-        hostname: "localhost",
+        hostname: "api.aarkaytest.com",
       },
     ],
   },
-  // Removing custom CSS/SCSS configuration to use built-in support
+
   webpack: (config) => {
-    // If additional custom loaders are necessary, keep those, but remove CSS/SCSS rules
     config.module.rules = config.module.rules.filter(
       (rule) =>
         !(
