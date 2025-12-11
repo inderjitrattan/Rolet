@@ -44,8 +44,32 @@ footer .darken-layout .footer-social svg {
     color: rgb(90 41 16);
 }
 .contact-page .contact-right ul li .contact-icon {
-        background-color: #ffffff00;
+    background-color: #ffffff00;
 }
+/* Shared styling */
+.basic-product.theme-product-6 .addtocart_btn {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
 .basic-product.theme-product-6 .addtocart_btn .add-button {
-    margin:1mm;
+  flex: 1;
+  padding: 6px 10px;
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0; /* override your 1mm margin if needed */
 }
+
+/* Mobile fix */
+@media (max-width: 480px) {
+  .basic-product.theme-product-6 .addtocart_btn {
+    flex-direction: column;
+  }
+
+  .basic-product.theme-product-6 .addtocart_btn .add-button {
+    width: 100%;
+  }
+}
+
