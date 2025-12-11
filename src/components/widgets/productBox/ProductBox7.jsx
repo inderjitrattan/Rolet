@@ -83,6 +83,19 @@ const ProductBox7 = ({ productState }) => {
             )}
           </h4>
           <div className="addtocart_btn">
+          <button
+            className="add-button add_cart"
+              onClick={() => {
+              const productName = productState?.product?.name;
+              const phone = "917016623913";
+              const message = `Hello, I would like to enquire about the product: ${productName}`;
+              const url = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(
+              message
+            )}`;
+              window.open(url, "_blank");
+            }}>
+            Enquire Now
+            </button>
             <CartButton
               productState={productState}
               selectedVariation={productState.selectedVariation}

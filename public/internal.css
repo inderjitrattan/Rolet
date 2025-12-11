@@ -43,3 +43,9 @@ footer .darken-layout .footer-social svg {
 .contact-page .contact-form .form-box label {
     color: rgb(90 41 16);
 }
+.contact-page .contact-right ul li .contact-icon {
+        background-color: #ffffff00;
+}
+.basic-product.theme-product-6 .addtocart_btn .add-button {
+    margin:1mm;
+}
