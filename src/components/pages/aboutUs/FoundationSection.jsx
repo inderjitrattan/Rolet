@@ -42,7 +42,7 @@ const FoundationSection = () => {
       {/* MAIN PARAGRAPH */}
       <div
         style={{
-          maxWidth: "900px",
+          maxWidth: "90%",
           margin: "0 auto",
           fontSize: "18px",
           lineHeight: "1.9",

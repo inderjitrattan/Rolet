@@ -40,6 +40,8 @@ export default async function RootLayout({ children }) {
       <LanguageProvider initialLanguage={lng}>
         <html lang="en">
           <head>
+             {/* Your custom CSS file */}
+            <link rel="stylesheet" href="/internal.css" />
             {/* Google Fonts */}
             <link
               href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"

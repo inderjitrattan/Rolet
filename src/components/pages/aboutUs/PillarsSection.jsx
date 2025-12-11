@@ -128,6 +128,7 @@ to every ritual.`,
         .pillar-text p {
           font-size: 17px;
           line-height: 1.8;
+          text-align: justify;
         }
 
         /* RESPONSIVE FIX */

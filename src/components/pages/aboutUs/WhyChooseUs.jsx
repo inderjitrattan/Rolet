@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
       className="why-choose-wrapper"
       style={{
         padding: "100px 0",
-        background: "#fdf7ef",
+        background: "#ffffffff",
         textAlign: "center",
       }}
     >
@@ -30,12 +30,11 @@ const WhyChooseUs = () => {
       {/* DESCRIPTION */}
       <p
         style={{
-          maxWidth: "900px",
+          maxWidth: "90%",
           margin: "0 auto",
           fontSize: "18px",
           lineHeight: "1.9",
           color: "#4b3e2b",
-          padding: "0 20px",
         }}
       >
         Choosing Rolet Incense Sticks means choosing purity, tradition, and

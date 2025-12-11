@@ -1,0 +1,45 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgb(255, 255, 255) !important;
+}
+.contact-page .contact-right ul {
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+footer .darken-layout p {
+    color: rgb(90 41 16);
+    font-weight: 600;
+}
+.footer-theme .sub-title li {
+    color: rgb(90 41 16);
+}
+footer .darken-layout .sub-title li a {
+    color: rgb(90 41 16);    
+}
+
+footer .darken-layout .footer-social svg {
+    color: rgb(90 41 16);
+}
+.footer-style-1 .footer-social a svg {
+    font-size: 30px;
+}
+.sub-footer.dark-subfooter {
+    background-color: rgb(90 41 16);
+}
+.contact-page .contact-title h2 {
+    color: rgb(90 41 16);
+}
+.contact-page .contact-form {
+    background-color: #e9d9c1;
+}
+.contact-page .contact-title h2 {
+    color: rgb(90 41 16);
+}
+.footer-social svg {
+    color: rgb(90 41 16);
+    font-size: calc(30px + 2 * (100vw - 320px) / 1600);
+}
+.contact-page .contact-right ul li .media-body h6 {
+    color: rgb(90 41 16);
+}
+.contact-page .contact-form .form-box label {
+    color: rgb(90 41 16);
+}
